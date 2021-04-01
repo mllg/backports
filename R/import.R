@@ -62,7 +62,7 @@ get_backports = function(v = getRversion()) {
 }
 
 FUNS = list(
-  "4.0.0" = c("R_user_dir", "deparse1", "list2DF", "suppressWarnings", "suppressMessages"),
+  "4.0.0" = c("R_user_dir", "deparse1", "list2DF", "suppressWarnings", "suppressMessages", "stopifnot"),
   "3.6.0" = c("warningCondition", "errorCondition", "vignetteInfo", "dQuote", "sQuote", "removeSource", "asplit"),
   "3.5.0" = c("...length", "...elt", "isFALSE", "isTRUE"),
   "3.4.0" = c("hasName"),
